@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  font-family: "Lato", "Trebuchet MS", Helvetica, sans-serif;
+  /* --secondary-color: #1ED269; */
+  --secondary-color: #43aa8b;
+  --orange: chocolate;
+  --orange-hover: #e4843f;
+  --blue: #1e87d2;
+}
+
+body {
+  margin-top: 15px;
+  background-image: url("../img/woman-deciding-what-to-watch.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+}
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+}
+
+.nav-item :hover {
+  border-radius: 5px;
+  background-color: rgb(60, 119, 151);
+}
+
+#top-10id {
+  border-radius: 5px;
+  background-color: rgb(31, 81, 107);
+}
+.dropdown-menu :hover{
+  background-color: white;
+}
+
+
+

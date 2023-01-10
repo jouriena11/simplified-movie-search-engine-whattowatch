@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  font-family: "Lato", "Trebuchet MS", Helvetica, sans-serif;
+  /* to test again */
+}
+
+body {
+  background-image: url("../img/woman-deciding-what-to-watch.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  padding-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+#search-button {
+  border-radius: 10px;
+  font-weight: 700;
+  width: 70px;
+  height: 100%;
+  color: white;
+  background: #1e87d2;
+  border: none;
+}
+
+#search-button:hover {
+  border: 1px solid white;
+}
+
+#search-button:active {
+  background: rgb(39 76 103);
+}
+
+#advanced-search-text,
+.text-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#advanced-search-text:hover,
+.text-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/white-hamburger-btn.png");
+}
+
+#navbar-toggler-border-color {
+  border-color: white;
+}
+
+.modal-content {
+  border: none;
+}
+
+/* Jquery slider */
+.ui-widget-header {
+  background-color: #1ed269 !important;
+}
+
+/* custom filter checkbox */
+input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.card {
+  padding: 0px;
+  text-align: center;
+  float: left;
+  width: 40%;
+  margin: 10px;
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #22303c !important;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+}
+
+#container {
+  /* background-color: #22303c; */
+  align-self: center;
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: 700;
+  margin: 15px;
+}
+
+.genres {
+  margin: 60px;
+  align-items: center;
+  width: 28%;
+  text-align: center;
+}
+
+.genreBtn {
+  background-color: #355e3b;
+  color: white;
+  border: none;
+  margin: 2px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.genreBtn:hover {
+  background-color: blueviolet;
+}
+
+.findBtn {
+  margin-top: 10px;
+}
+
+.findBtn button {
+  background-color: #355e3b;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.inputs-div {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.slidecontainer {
+  margin: 60px;
+  text-align: center;
+  width: 28%;
+  align-items: center;
+}
+
+.slider {
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .inputs-div {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .genres {
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slidecontainer {
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+}
+
+#top10title {
+  text-align: center;
+}
+
+.overview {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+.overviewP {
+  /* color: black; */
+  font-size: small;
+}
+
+.innerCardDiv {
+  padding: 0px;
+  /* margin: 10px; */
+
+  position: relative;
+  border-radius: 30px;
+  background-color: #22303c;
+}
+
+.movieImage {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.rating {
+  position: absolute;
+  background-color: #22303c;
+  border-style: solid, black, 1px;
+  margin-top: -7%;
+  margin-left: 5%;
+  border-radius: 32px;
+  padding: 3%;
+  font-weight: 700;
+}
+
+.reviewsBtnDiv {
+  position: absolute;
+  margin-top: -145%;
+  margin-left: 5%;
+}
+
+.trailerBtn {
+  margin-bottom: 15%;
+}
+.nav-item :hover {
+  border-radius: 5px;
+  background-color: rgb(60, 119, 151);
+}
+
+#top-10id {
+  border-radius: 5px;
+  background-color: rgb(31, 81, 107);
+}
